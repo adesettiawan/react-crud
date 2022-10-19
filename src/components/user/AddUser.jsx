@@ -14,6 +14,7 @@ const AddUser = () => {
     email: "",
   });
 
+  // add user
   const handleAddUser = () => {
     setValue({ name: "", email: "" });
     dispatch(
